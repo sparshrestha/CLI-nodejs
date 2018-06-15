@@ -1,0 +1,18 @@
+{
+  "name": "mycms",
+  "preferGlobal": true,
+  "bin": "./contact.js",
+  "version": "1.0.0",
+  "description": "A command-line contact management system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sparshrestha",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "inquirer": "^6.0.0",
+    "mongoose": "^5.1.5"
+  }
+}
